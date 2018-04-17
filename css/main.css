@@ -26,9 +26,20 @@ body {
 header {
   background-color: #00919D;
 }
+
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.banner {
+  position: relative;
+  max-height: 24em;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
 }
 
 .current {
