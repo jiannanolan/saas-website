@@ -23,7 +23,40 @@ body {
   width: 100%;
 }
 
+header {
+  background-color: #00919D;
+}
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.current {
+  background-color: red;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+}
+
+.nav-label {
+  cursor: pointer;
+}
+
+.card
+
+.section-home {
+  background-color: #BFBEC0;
 }
