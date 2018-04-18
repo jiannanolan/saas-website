@@ -1,30 +1,9 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-family: "Roboto", serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  width: 100%;
-}
-
 header {
-  background-color: #00919D;
+  background-color: #00919d;
 }
 
 .img-flex {
@@ -69,10 +48,10 @@ header {
 .card
 
 .section-home {
-  background-color: #BFBEC0;
+  background-color: #bfbeC0;
 }
 
 footer {
-  background-color: #00919D;
+  background-color: #00919d;
   color: #fff;
 }
