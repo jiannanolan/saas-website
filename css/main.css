@@ -6,19 +6,18 @@ header {
   background-color: #00919d;
 }
 
+h1 {
+  color: #fff;
+}
+
 .img-flex {
   width: 100%;
   display: block;
 }
 
 .banner {
-  position: relative;
   max-height: 24em;
   overflow: hidden;
-}
-
-.banner-content {
-  position: absolute;
 }
 
 .current {
@@ -33,8 +32,15 @@ header {
   display: block;
 }
 
-.nav-check {
+[type="checkbox"].nav-check + label::before {
   position: absolute;
+  top: -5em;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+  max-width: 2em;
 }
 
 .nav-check:checked ~ .nav-label {
@@ -45,10 +51,16 @@ header {
   cursor: pointer;
 }
 
-.card
+.all-cards {
+  background-color: #bfbec0;
+}
+
+.card-content {
+  background-color: #fff;
+}
 
 .section-home {
-  background-color: #bfbeC0;
+  background-color: #bfbec0;
 }
 
 footer {

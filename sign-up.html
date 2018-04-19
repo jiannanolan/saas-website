@@ -1,21 +1,153 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
 <head>
   <meta charset="utf-8">
   <title>Sign-up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Roboto:300,400,700,900" rel="stylesheet">
 </head>
 
+<body>
 
-
-<nav>
-  <ul class="nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="learn-more.html">Learn more</a></li>
-    <li><a href="pricing.html">Pricing</a></li>
-    <li><a class="current" href="sign-up.html">Sign up</a></li>
-    <li><a href="login.html">Login</a></li>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
   </ul>
-</nav>
+
+  <div class="masthead grid grid-middle xs-1 s-1 m-1 l-1">
+    <div class="unit xs-1 m-1">
+      <header role="banner" class="grid xs-1 s-1 m-1 l-1">
+        <h1 class="unit xs-3-4 milli push-0">Dropbox</h1>
+
+        <nav class="unit xs-1-4" role="navigation" id="nav">
+          <input type="checkbox" id="nav-check" class="nav-check">
+          <label class="nav-label" for="nav-check">Navigate</label>
+          <ul class="nav list-group">
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="learn-more.html">Learn more</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="sign-up.html">Sign up</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <main role="main" id="main" tabindex="0">
+
+    <div class="grid">
+
+      <div class="unit xs-1 m-1">
+        <header class="gutter-1-2 pad-t pad-b-1-2">
+          <h1 class="push-1-2">Sign-up Today</h1>
+          <p class="mega">The world's fastest and most reliable file sharing service at your fingertips.</p>
+        </header>
+      </div>
+
+      <div class="unit xs-1 l-1">
+        <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
+
+          <fieldset>
+            <legend class="giga pad-t-2 push">Personal details</legend>
+
+            <div class="grid">
+
+              <div class="unit xs-1 push m-1-2">
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+                <p class="micro italic">Enter your full name.</p>
+              </div>
+
+              <div class="unit push xs-1 m-1-2">
+                <label for="date">Date of birth</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+
+              <div class="unit push xs-1 m-1-2">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="unit push xs-1 m-1-2">
+                <label for="phone">Phone Number</label>
+                <input type="email" id="phone" name="phone" required>
+              </div>
+            </div>
+
+            <fieldset>
+              <legend class="unit giga pad-t-2 push">Company details</legend>
+
+              <div class="unit push xs-1 m-1-2">
+                <label for="company-name">Company name</label>
+                <input id="company-name" name="company-name">
+              </div>
+
+              <div class="unit push xs-1 m-1-2">
+                <label for="company-email">Company email</label>
+                <input type="email" id="company-email" name="company-email">
+              </div>
+
+              <div class="unit push xs-1 m-1-2">
+                <label for="size">Company size</label>
+                <input type="range" id="size" name="size">
+              </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="unit giga pad-t-2 push">Payment</legend>
+
+
+            <div class="unit xs-1 push m-1-2">
+              <label for="payment">Payment Method</label>
+              <input id="payment" list="payment" required>
+              <datalist id="payment-options">
+                <option>Yearly</option>
+                <option>Monthly</option>
+              </datalist>
+            </div>
+
+            <div class="unit xs-1 push m-1-2">
+              <label for="payment-details">Payment Details</label>
+              <input id="payment-details" list="payment-details" required>
+              <datalist id="card-options">
+                <option>Visa</option>
+                <option>Mastercard</option>
+                <option>American Express/option>
+                <option>Paypal</option>
+              </datalist>
+            </div>
+
+            <div class="unit push xs-1 m-1-2">
+              <label for="security">Serurity code</label>
+              <input id="security" name="security">
+            </div>
+
+            <div class="unit push xs-1 m-1-2">
+              <label for="expire">Expiry Date</label>
+              <input id="expire" name="expire">
+            </div>
+          </fieldset>
+
+          <fieldset>
+              <legend class="unit giga pad-t-2 push">Account Verification</legend>
+
+            <div class="unit">
+              <label class="push giga pad-t-2" for="comments">Please let us know any comments or questions you may have.</label>
+              <textarea class="pad-b-2 push-2 pad-t-2" id="comments" name="comments" required></textarea>
+            </div>
+
+            <label>I agree to terms and conditions</label>
+            <input type="checkbox" id="verification" name="verification">
+
+            <div class="unit pad-t">
+              <button class="btn text-center push-2" type="submit">Sign-up!</button>
+            </div>
+          </form>
+
+          </fieldset>
