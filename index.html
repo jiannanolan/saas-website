@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
 <head>
   <meta charset="utf-8">
   <title>Homepage</title>
@@ -26,7 +27,7 @@
         <nav class="unit xs-1-4" role="navigation" id="nav">
           <input type="checkbox" id="nav-check" class="nav-check">
           <label class="nav-label" for="nav-check">Navigate</label>
-          <ul class="nav">
+          <ul class="nav list-group">
             <li><a class="current" href="index.html">Home</a></li>
             <li><a href="learn-more.html">Learn more</a></li>
             <li><a href="pricing.html">Pricing</a></li>
@@ -38,110 +39,116 @@
     </div>
   </div>
 
-<main>
+  <main role="main" id="main" tabindex="0">
 
-  <div class="unit banner embed embed-3by1">
-    <img class="img-flex embed-item" src="images/banner-homepage.jpg"  alt="">
-    <div class="banner-content">
-      <div class="text-center max-length pin-center">
-        <h2>A better way to work</h2>
-        <p>An easy file transporting service tailored to all your unique needs.</p>
-        <a class="btn" href="sign-up.html">Start now</a>
-        <a class="btn" href="login.html">Login</a>
-      </div>
-    </div>
-  </div>
-
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1 l-1-3 card">
-    <div>
-      <img class="img-flex" src="images/girl.jpg" alt>
-    </div>
-    <div>
-      <h3 class="text-center">Work your way</h3>
-      <p class="text-center">Our cloud based file-sharing solution provides all users with the highest control, security, and flexibility. Ready to service each and every need.</p>
-      <div class="text-center">
-        <a class="btn" href="learn-more.html">Learn More</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="unit xs-1 s-1 m-1 l-1-3 card">
-    <div>
-      <img class="img-flex" src="images/tablet.jpg" alt>
-    </div>
-    <div>
-        <h3 class="text-center">Manage your needs</h3>
-        <p class="text-center">DropBox offers the perfect system for managing all your needs. Through a personalized interface sharing software has never been this easy and time efficient.</p>
-        <div class="text-center">
-          <a class="btn" href="learn-more.html">Learn More</a>
+    <section class="unit banner embed embed-3by1" id="banner" tabindex="0">
+      <img class="img-flex embed-item" src="images/banner-homepage.jpg" alt="" aria-details="a-better-way-to-work">
+      <div class="banner-content">
+        <div class="text-center max-length pin-center">
+          <h2>A better way to work</h2>
+          <p>An easy file transporting service tailored to all your unique needs.</p>
+          <a class="btn" href="sign-up.html">Start now</a>
+          <a class="btn" href="login.html">Login</a>
         </div>
-    </div>
-  </div>
-
-  <div class="unit xs-1 s-1 m-1 l-1-3 card">
-    <div>
-      <img class="img-flex" src="images/table.jpg" alt>
-    </div>
-    <div>
-      <h3 class="text-center">Integrate Seamlessly</h3>
-      <p class="text-center">Dropbox is a simple application that automatically syncs a folder onto any device. This allows for automatic updates and backups for all your important data.</p>
-      <div class="text-center">
-        <a class="btn" href="learn-more.html">Learn More</a>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<div class="grid">
-
-    <div class="unit l-1-2">
-      <i class="icon i-96"><img src="images/thumbs-up.png" alt=""></i>
-      <span class="icon-label unit-xs-hidden">Thumbs up icon</span>
-      <h3 class="text-center">Work Confidently</h3>
-      <p class="text-center">Dropbox provides creative solutions to all your file sharing problems. We work hard to provide a quality software for all your workflow handlings to minimize redundancy and time consuming tasks.</p>
-      <div class="text-center">
-        <a class="btn" href="pricing.html">Explore</a>
+    <section class="grid" id="cards-photos" tabindex="0">
+      <div class="unit xs-1 s-1 m-1 l-1-3 card">
+        <div>
+          <img class="img-flex" src="images/girl.jpg" alt="" aria-details="work-your-way">
+        </div>
+        <div>
+          <h3 class="text-center" id="work-your-way">Work your way</h3>
+          <p class="text-center">Our cloud based file-sharing solution provides all users with the highest control, security, and flexibility. Ready to service each and every need.</p>
+          <div class="text-center">
+            <a class="btn" href="learn-more.html">Learn More</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="unit l-1-2">
-      <img class="img-flex" src="images/card-paper.jpg" alt>
-    </div>
 
-  <div class="unit l-1-2">
-    <i class="icon i-96"><img src="images/headset.png" alt=""></i>
-    <span class="icon-label unit-xs-hidden">Thumbs up icon</span>
-    <h3 class="text-center">Helping Real People</h3>
-    <p class="text-center">Take advantage of our live training sessions and online tutorials for you and your clients. Our friendly experts provide free 24/7 support. </p>
-    <div class="text-center">
-      <a class="btn" href="pricing.html">Explore</a>
-    </div>
-  </div>
-  <div class="unit l-1-2">
-    <img class="img-flex" src="images/card-hands.jpg" alt>
-  </div>
+      <div class="unit xs-1 s-1 m-1 l-1-3 card">
+        <div>
+          <img class="img-flex" src="images/tablet.jpg" alt="" aria-details="manage-your-needs">
+        </div>
+        <div>
+          <h3 class="text-center" id="manage-your-needs">Manage your needs</h3>
+          <p class="text-center">DropBox offers the perfect system for managing all your needs. Through a personalized interface sharing software has never been this easy and time efficient.</p>
+          <div class="text-center">
+            <a class="btn" href="learn-more.html">Learn More</a>
+          </div>
+        </div>
+      </div>
 
-  <div class="unit l-1-2">
-    <i class="icon i-96"><img src="images/lock.png" alt=""></i>
-    <span class="icon-label unit-xs-hidden">Thumbs up icon</span>
-    <h3 class="text-center">Security & Mobility</h3>
-    <p class="text-center">DropBox protects each file transfer by using the same encryption as an online bank. Through password protective software all users recieve secure emails to ensure the ultimate privacy.</p>
-    <div class="text-center">
-      <a class="btn" href="pricing.html">Explore</a>
-    </div>
-  </div>
-  <div class="unit l-1-2">
-    <img class="img-flex" src="images/card-devices.jpg" alt>
-  </div>
-</div>
+      <div class="unit xs-1 s-1 m-1 l-1-3 card">
+        <div>
+          <img class="img-flex" src="images/table.jpg" alt="" aria-details="integrate-seamlessly">
+        </div>
+        <div>
+          <h3 class="text-center" id="integrate-seamlessly">Integrate Seamlessly</h3>
+          <p class="text-center">Dropbox is a simple application that automatically syncs a folder onto any device. This allows for automatic updates and backups for all your important data.</p>
+          <div class="text-center">
+            <a class="btn" href="learn-more.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</main>
+    <section class="grid" id="cards-icons" tabindex="0">
+      <div class="unit l-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/thumbs-up.png" alt="" aria-details="work-confidently"></i>
+          <span class="icon-label unit-xs-hidden">Thumbs up icon</span>
+        </div>
+        <h3 class="text-center" id="work-confidently">Work Confidently</h3>
+        <p class="text-center">Dropbox provides creative solutions to all your file sharing problems. We work hard to provide a quality software for all your workflow handlings to minimize redundancy and time consuming tasks.</p>
+        <div class="text-center">
+          <a class="btn" href="pricing.html">Explore</a>
+        </div>
+      </div>
+      <div class="unit l-1-2">
+        <img class="img-flex" src="images/card-paper.jpg" alt="" aria-details="paper-illustration">
+      </div>
 
-<div class="grid">
-  <footer class="unit xs-1 s-1 m-1 l-1" role="contentinfo" tabindex="0">
-    <p class="text-center">©Dropbox 2018</p>
-  </footer>
-</div>
+      <div class="unit l-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/headset.png" alt="" aria-details="helping-people"></i>
+          <span class="icon-label unit-xs-hidden">Headset icon</span>
+        </div>
+        <h3 class="text-center" id="helping-people">Helping Real People</h3>
+        <p class="text-center">Take advantage of our live training sessions and online tutorials for you and your clients. Our friendly experts provide free 24/7 support. </p>
+        <div class="text-center">
+          <a class="btn" href="pricing.html">Explore</a>
+        </div>
+      </div>
+      <div class="unit l-1-2">
+        <img class="img-flex" src="images/card-hands.jpg" alt="" aria-details="hands-illustration">
+      </div>
+
+      <div class="unit l-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/lock.png" alt="" aria-details="security-and-mobility"></i>
+          <span class="icon-label unit-xs-hidden">Lock icon</span>
+        </div>
+        <h3 class="text-center" id="security-and-mobility">Security & Mobility</h3>
+        <p class="text-center">DropBox protects each file transfer by using the same encryption as an online bank. Through password protective software all users recieve secure emails to ensure the ultimate privacy.</p>
+        <div class="text-center">
+          <a class="btn" href="pricing.html">Explore</a>
+        </div>
+      </div>
+      <div class="unit l-1-2">
+        <img class="img-flex" src="images/card-devices.jpg" alt="" aria-details="devices-illustration">
+      </div>
+    </section>
+
+  </main>
+
+  <div class="grid">
+    <footer class="unit xs-1 s-1 m-1 l-1" role="contentinfo" tabindex="0">
+      <p class="text-center">©Dropbox 2018</p>
+    </footer>
+  </div>
 
 </body>
+
 </html>
