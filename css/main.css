@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", serif;
+  font-family: Roboto, serif;
 }
 
 header {
@@ -10,14 +10,95 @@ h1 {
   color: #fff;
 }
 
-.img-flex {
-  width: 100%;
-  display: block;
+h2 {
+  color: #fff;
 }
 
-.banner {
-  max-height: 24em;
-  overflow: hidden;
+.banner-home p {
+  color: #fff;
+}
+
+.banner-tour p {
+  color: #fff;
+}
+
+.btn-banner {
+  background-color: #df7555;
+  border: 3px solid #df7555;
+}
+
+.banner-tour .btn-banner {
+  background-color: #58595b;
+  border: 3px solid #58595b;
+}
+
+.banner-pricing .btn-banner {
+  background-color: #2fc0cc;
+  border: 3px solid #2fc0cc;
+}
+
+.btn-teal {
+  background-color: #00919d;
+  border: 3px solid #00919d;
+}
+
+.card-color-work {
+  background-color: #33c0cc;
+  color: #fff;
+}
+
+.card-color-help {
+  background-color: #58595b;
+  color: #fff;
+}
+
+.card-color-secure {
+  background-color: #dd7454;
+  color: #fff;
+}
+
+.banner-home {
+  background-image: url(../images/banner-homepage.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  height
+}
+
+.banner-tour {
+  background-image: url(../images/banner-learn-more.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  height
+}
+
+.banner-pricing {
+  background-image: url(../images/banner-pricing.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  height
+}
+
+.banner-home h2 {
+ text-shadow: 2px 2px 10px black;
+}
+
+.banner-tour h2 {
+ text-shadow: 2px 2px 10px black;
+}
+
+.banner-pricing h2 {
+ text-shadow: 2px 2px 10px black;
+}
+
+.banner-content {
+  width: 100%;
+}
+
+.card-illustrations {
+  height: 100%;
 }
 
 .current {
