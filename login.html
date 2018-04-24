@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
 <head>
   <meta charset="utf-8">
   <title>Login</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Roboto:300,400,700,900" rel="stylesheet">
 </head>
 
-<nav>
-  <ul class="nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="learn-more.html">Learn more</a></li>
-    <li><a href="pricing.html">Pricing</a></li>
-    <li><a href="sign-up.html">Sign up</a></li>
-    <li><a class="current" href="login.html">Login</a></li>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
   </ul>
-</nav>
 
-<div>
-  <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
+  <div class="masthead">
+    <header role="banner" class="grid">
+      <h1 class="tera island-1-2 push-0 unit xs-1-2">Dropbox</h1>
 
-    <fieldset>
-      <legend class="">Sign into your account</legend>
+      <nav class="unit xs-1-2 text-right island-1-2" role="navigation" id="nav">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label" for="nav-check">
+          <img src="images/menu-icon.svg" alt="Open Navigation">
+        </label>
 
-      <div class="">
-        <label class="push-1-4" for="username">Username</label>
-        <input id="username" name="username" required>
-      </div>
+        <ul class="nav list-group">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tour.html">Learn more</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="sign-up.html">Sign up</a></li>
+          <li><a class="current" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div>
+    <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com" class="pad-t-2 text-center">
 
-      <div class="">
-        <label for="password">Password?</label>
-        <input id="password" name="password" required>
-      </div>
-    </fieldset>
-  </form>
-</div>
+      <fieldset class="grid gutter">
+        <legend class="unit xs-1 tera text-upper">Sign into your account</legend>
+
+        <div class="unit xs-1 pad-t text-left push-1-2">
+          <label class="push-1-4" for="username">Username</label>
+          <input id="username" name="username" required>
+        </div>
+
+        <div class="unit xs-1 text-left">
+          <label for="password">Password?</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="unit xs-1 pad-t text-center .btn-teal">
+          <button class="btn text-center push-2" type="submit">Sign Up!</button>
+        </div>
+
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="grid">
+    <footer class="unit xs-1 s-1 m-1 l-1" role="contentinfo" tabindex="0">
+      <p class="text-center pad-t">©Dropbox 2018</p>
+    </footer>
+  </div>
+
+  <input type="hidden" name="_subject" value="DropBox Sign-up">

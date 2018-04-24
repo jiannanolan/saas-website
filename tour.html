@@ -13,144 +13,146 @@
 
 <body>
 
-  <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-    <ul class="skip-links">
-      <li><a href="#main">Jump to main content</a></li>
-      <li><a href="#nav">Jump to navigation</a></li>
-    </ul>
+  <div class="masthead">
+    <header role="banner" class="grid xs-1 s-1 m-1 l-1 pad-t-1-2">
+      <h1 class="yotta push pad-t-1-2 unit xs-1-2 l-1-3 gutter"><a class="home island-1-2 " href="index.html">DropBox</a></h1>
 
-    <div class="masthead">
-      <header role="banner" class="grid">
-        <h1 class="tera island-1-2 push-0 unit xs-1-2">Dropbox</h1>
+      <nav class="unit xs-1-2 l-2-3 pad-t-1-2 text-right" role="navigation" id="nav">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label gutter push" for="nav-check">
+          <img src="images/menu-icon.svg" alt="Open Navigation">
+        </label>
 
-        <nav class="unit xs-1-2 text-right island-1-2" role="navigation" id="nav">
-          <input type="checkbox" class="nav-check" id="nav-check">
-          <label class="nav-label" for="nav-check">
-            <img src="images/menu-icon.svg" alt="Open Navigation">
-          </label>
-
-          <ul class="nav list-group">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="current" href="tour.html">Learn more</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="sign-up.html">Sign up</a></li>
-            <li><a href="login.html">Login</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-
-<main>
-
-  <section class="banner-tour pad-t-2 pad-b-2">
-    <div class="banner-content">
-      <div class="text-center">
-        <h2 class="push-1-2 xs-1 text-upper zetta gutter">Secure sharing made easy</h2>
-        <p class="milli push-r-2 gutter-2">Explore our effective and safe drive features.</p>
-        <div class="text-center">
-          <a class="btn btn-banner" href="sign-up.html">Start now</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 card">
-      <div class="text-center">
-        <i class="icon i-64"><img src="images/share.png" alt=""></i>
-        <span class="icon-label unit-xs-hidden">Share icon</span>
-      </div>
-      <div>
-        <h3 class="text-center">Share</h3>
-        <p class="text-center">Whether through email, link, or social network, we offer our clients a place to collaborate.</p>
-        <div class="text-center">
-          <a class="btn" href="">Read More</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 card">
-      <div class="text-center">
-        <i class="icon i-64"><img src="images/speedometer.png" alt=""></i>
-        <span class="icon-label unit-xs-hidden">Speed icon</span>
-      </div>
-      <div>
-        <h3 class="text-center">Speed</h3>
-        <p class="text-center">With no wait times. Download and share files fast with our reliable service.</p>
-        <div class="text-center">
-          <a class="btn" href="">Read More</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 card">
-      <div class="text-center">
-        <i class="icon i-64"><img src="images/scale.png" alt=""></i>
-        <span class="icon-label unit-xs-hidden">Stability icon</span>
-      </div>
-      <div>
-        <h3 class="text-center">Stability</h3>
-        <p class="text-center">Never forget your work at home. View, manage, and share from anywhere.</p>
-        <div class="text-center">
-          <a class="btn" href="">Read More</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 card">
-      <div class="text-center">
-        <i class="icon i-64"><img src="images/shield.png" alt=""></i>
-        <span class="icon-label unit-xs-hidden">Security icon</span>
-      </div>
-      <div>
-        <h3 class="text-center">Security</h3>
-        <p class="text-center">Clients trust us to meet their security, compliance, and privacy needs.</p>
-        <div class="text-center">
-          <a class="btn" href="">Read More</a>
-        </div>
-      </div>
-    </div>
+        <ul class="nav list-group">
+          <li class="island-1-4"><a class="island-1-2 nav-link" href="tour.html">Learn more</a></li>
+          <li class="island-1-4"><a class="island-1-2 nav-link" href="pricing.html">Pricing</a></li>
+          <li class="island-1-4"><a class="island-1-2 nav-link" href="sign-up.html">Sign up</a></li>
+          <li class="island-1-4"><a class="island-1-2 nav-link" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
   </div>
 
-  <div>
-    <h3>Key Features</h3>
+  <main role="main" id="main" tabindex="0">
 
-    <div class="table-wrapper scrollable">
-      <table class="push-0">
+    <section class="banner-tour pad-t-2 pad-b-2" id="cards-icons" tabindex="0">
+      <div class="banner-content">
+        <div class="text-center">
+          <h2 class="push-1-2 xs-1 text-upper gutter nina">Secure sharing made easy</h2>
+          <p class="milli push-r-2 gutter-2">Explore our effective and safe drive features.</p>
+          <div class="text-center">
+            <a class="btn btn-banner" href="sign-up.html">Start now</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <thead>
-        <tr>
-          <th class="name" scope="col">Reliable and Secure File Sharing</th>
-          <th class="star" scope="col">Security made for you</th>
-          <th class="year" scope="col">Easy management and multi-tasking</th>
-        </tr>
-      </thead>
+    <div class="grid pad-t gutter-1-2">
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card gutter-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/share.png" alt="" aria-details="share"></i>
+          <span class="icon-label unit-xs-hidden">Share icon</span>
+        </div>
+        <div>
+          <h3 class="text-center push-1-2 pad-t text-upper peta" id="share">Share</h3>
+          <p class="text-center">Whether through email, link, or social network, we offer our clients a place to collaborate.</p>
+          <div class="text-center">
+            <a class="btn push-2" href="pricing.html">Read More</a>
+          </div>
+        </div>
+      </div>
 
-      <tbody>
-        <tr>
-          <th class="not-bold italic" scope="row">Securely share large files and folders with a simple link or custom URL, with anyone.</th>
-          <td>Keep your content password-protected and control access with permissions you set. Plus, if you send a file to the wrong person, you can easily pull it back.</td>
-          <td>With comments and tasks, you can simplify reviews and approvals by setting important due dates, assigning tasks to team members and monitoring progress in one location.</td>
-        </tr>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card gutter-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/speedometer.png" alt="" aria-details="speed"></i>
+          <span class="icon-label unit-xs-hidden">Speed icon</span>
+        </div>
+        <div>
+          <h3 class="text-center push-1-2 pad-t text-upper peta" id="speed">Speed</h3>
+          <p class="text-center">With no wait times. Download and share files fast with our reliable service.</p>
+          <div class="text-center">
+            <a class="btn push-2" href="pricing.html">Read More</a>
+          </div>
+        </div>
+      </div>
 
-        <tr>
-          <th class="bold" scope="row">Preview files without download</th>
-          <td class="bold" >Automatic Version Control</td>
-          <td class="bold" >Works on any device</td>
-        </tr>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card gutter-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/scale.png" alt="" aria-details="stability"></i>
+          <span class="icon-label unit-xs-hidden">Stability icon</span>
+        </div>
+        <div>
+          <h3 class="text-center push-1-2 pad-t text-upper peta" id="stability">Stability</h3>
+          <p class="text-center">Never forget your work at home. View, manage, and share from anywhere.</p>
+          <div class="text-center">
+            <a class="btn push-2" href="pricing.html">Read More</a>
+          </div>
+        </div>
+      </div>
 
-        <tr>
-          <th class="not-bold italic" scope="row">Preview 120+ types of files, including Word, Excel, PDF, photos and more without downloading — including rich 3D, HD, 360 or DICOM® files.</th>
-          <td>You've always got the latest file version on hand, making collaboration seamless and saving earlier versions too, just in case you need to go back. </td>
-          <td>Dropbox works seamlessly from any web browser as well as natively on iOS® and Android™ for mobile and tablet devices.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card gutter-1-2">
+        <div class="text-center">
+          <i class="icon i-96"><img src="images/shield.png" alt="" aria-details="security"></i>
+          <span class="icon-label unit-xs-hidden">Security icon</span>
+        </div>
+        <div>
+          <h3 class="text-center push-1-2 pad-t text-upper peta" id="security">Security</h3>
+          <p class="text-center">Clients trust us to meet their security, compliance, and privacy needs.</p>
+          <div class="text-center">
+            <a class="btn push-2" href="pricing.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
 
-  <div class="grid">
-    <footer class="unit xs-1 s-1 m-1 l-1" role="contentinfo" tabindex="0">
-      <p class="text-center pad-t">©Dropbox 2018</p>
-    </footer>
-  </div>
+    <div>
+      <h3 class="gutter text-upper peta push-0">Key Features</h3>
+
+      <div class="table-wrapper scrollable gutter push">
+        <table class="push-0">
+          <caption>Find out what DropBox can do for you.</caption>
+          <thead>
+            <tr>
+              <th class="name" scope="col">Reliable and Secure File Sharing</th>
+              <th class="star" scope="col">Security made for you</th>
+              <th class="year" scope="col">Easy management and multi-tasking</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th class="not-bold italic" scope="row">Securely share large files and folders with a simple link or custom URL, with anyone.</th>
+              <td>Keep your content password-protected and control access with permissions you set. Plus, if you send a file to the wrong person, you can easily pull it back.</td>
+              <td>With comments and tasks, you can simplify reviews and approvals by setting important due dates, assigning tasks to team members and monitoring progress in one location.</td>
+            </tr>
+
+            <tr>
+              <th class="bold" scope="row">Preview files without download</th>
+              <td class="bold" >Automatic Version Control</td>
+              <td class="bold" >Works on any device</td>
+            </tr>
+
+            <tr>
+              <th class="not-bold italic" scope="row">Preview 120+ types of files, including Word, Excel, PDF, photos and more without downloading — including rich 3D, HD, 360 or DICOM® files.</th>
+              <td>You've always got the latest file version on hand, making collaboration seamless and saving earlier versions too, just in case you need to go back. </td>
+              <td>Dropbox works seamlessly from any web browser as well as natively on iOS® and Android™ for mobile and tablet devices.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="grid">
+      <footer class="unit xs-1 s-1 m-1 l-1" role="contentinfo" tabindex="0">
+        <p class="text-center pad-t">©Dropbox 2018</p>
+      </footer>
+    </div>
+
+</body>
+</html>
