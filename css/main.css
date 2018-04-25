@@ -50,6 +50,12 @@ h2 {
   border: 3px solid #cc4e00;
 }
 
+.btn-banner:hover {
+  background-color: #fff;
+  border: 3px solid #fff;
+  color: #cc4e00;
+}
+
 .banner-tour .btn-banner {
   background-color: #58595b;
   border: 3px solid #58595b;
