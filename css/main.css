@@ -155,7 +155,7 @@ h2 {
     display: none;
   }
 
-  li {
+  .nav li {
     display: inline;
   }
 
@@ -218,4 +218,10 @@ fieldset {
 
 .price {
   background-color: #fff;
+}
+
+.btn-orange {
+  background-color: #cc4e00;
+  border: 3px solid #cc4e00;
+  color: white;
 }
