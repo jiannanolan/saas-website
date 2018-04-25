@@ -99,15 +99,15 @@ h2 {
 }
 
 .banner-home h2 {
- text-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px black;
 }
 
 .banner-tour h2 {
- text-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px black;
 }
 
 .banner-pricing h2 {
- text-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px black;
 }
 
 .banner-content {
@@ -159,6 +159,7 @@ h2 {
   li {
     display: inline;
   }
+
 }
 
 .nav-check:checked ~ .nav-label {
