@@ -211,3 +211,11 @@ fieldset {
   border: 3px solid #fff;
   color: #cc4e00;
 }
+
+.cards-prices {
+  background-color: #bfbec0;
+}
+
+.price {
+  background-color: #fff;
+}
