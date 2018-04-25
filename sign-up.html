@@ -43,14 +43,14 @@
 
     <div class="grid">
 
-      <div class="unit xs-1 m-1">
+      <section class="unit xs-1 m-1">
         <header class="gutter pad-t pad-b-1-2 sign-up">
-          <h1 class="push-1-2">Sign-up Today</h1>
+          <h2 class="push-1-2">Sign-up Today</h2>
           <p class="milli sign-up-p">The world's fastest and most reliable file sharing service at your fingertips.</p>
         </header>
-      </div>
+      </section>
 
-      <div class="unit xs-1 l-1">
+      <section class="unit xs-1 l-1">
         <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
 
           <fieldset class="gutter">
@@ -79,32 +79,33 @@
                 <input placeholder="xxx-xxx-xxx" type="tel" id="phone" name="phone" required>
               </div>
             </div>
+          </fieldset>
 
-            <fieldset>
-              <legend class="giga pad-t push text-upper">Company Details</legend>
+          <fieldset>
+            <legend class="giga pad-t push text-upper">Company Details</legend>
 
-              <div class="grid">
+            <div class="grid">
 
-                <div class="unit xs-1 m-1-2 gutter-1-2">
-                  <label for="comp-name">Company Name</label>
-                  <input id="comp-name" name="comp-name">
-                </div>
+              <div class="unit xs-1 m-1-2 gutter-1-2 push">
+                <label for="comp-name">Company Name</label>
+                <input id="comp-name" name="comp-name">
+              </div>
 
-                <div class="unit push xs-1 m-1-2 gutter-1-2">
-                  <label for="comp-email">Company Email</label>
-                  <input placeholder="abc123@gmail.com" type="email" id="comp-email" name="comp-email">
-                </div>
+              <div class="unit push xs-1 m-1-2 gutter-1-2">
+                <label for="comp-email">Company Email</label>
+                <input placeholder="abc123@gmail.com" type="email" id="comp-email" name="comp-email">
+              </div>
 
-                <div class="unit push xs-1 m-1-2 gutter-1-2">
-                  <label for="comp-phone">Company Phone Number</label>
-                  <input placeholder="xxx-xxx-xxx" type="tel" id="comp-phone" name="comp-phone">
-                </div>
+              <div class="unit push xs-1 m-1-2 gutter-1-2">
+                <label for="comp-phone">Company Phone Number</label>
+                <input placeholder="xxx-xxx-xxx" type="tel" id="comp-phone" name="comp-phone">
+              </div>
 
-                <div class="unit push xs-1 m-1-2 gutter-1-2">
-                  <label for="size">Company size</label>
-                  <input type="range" id="size" name="size">
-                </div>
-            </legend>
+              <div class="unit push xs-1 m-1-2 gutter-1-2">
+                <label for="size">Company size</label>
+                <input type="range" id="size" name="size">
+              </div>
+            </div>
           </fieldset>
 
           <fieldset class="push-0">
@@ -114,18 +115,18 @@
 
               <div class="unit push xs-1 m-1-2 gutter-1-2">
                 <fieldset class="push-0">
-                  <legend for="payment" class="not-bold">Billing Details</legend>
+                  <legend class="not-bold">Billing Details</legend>
                   <input type="radio" id="pickyr" name="pickyr">
-                  <label for="pickyr">Yearly</option>
+                  <label for="pickyr">Yearly</label>
                   <input type="radio" id="pickmonth" name="pickmonth">
-                  <label for="pickmonth">Monthly</option>
+                  <label for="pickmonth">Monthly</label>
                 </fieldset>
                 <p class="micro italic push-0">*** Not a Real Website.</p>
               </div>
 
               <div class="unit push-0 xs-1 m-1-2 gutter-1-2">
                 <label for="payment-method">Payment Method</label>
-                <select id="payment-method" list="payment-method" required>
+                <select id="payment-method" required>
                   <option class="text-upper" value="">Method of Payment</option>
                   <option>Visa</option>
                   <option>Mastercard</option>
@@ -135,33 +136,36 @@
                 <p class="micro italic">*** Not a Real Website.</p>
               </div>
 
-            <div class="unit xs-1 m-1-2 gutter-1-2">
-              <label for="security">Security code</label>
-              <input type="password" id="security" name="security">
-              <p class="micro italic">*** Not a Real Website.</p>
-            </div>
+              <div class="unit xs-1 m-1-2 gutter-1-2">
+                <label for="security">Security code</label>
+                <input type="password" id="security" name="security">
+                <p class="micro italic">*** Not a Real Website.</p>
+              </div>
 
-            <div class="unit xs-1 m-1-2 push gutter-1-2">
-              <label for="expire">Expiry Date</label>
-              <input placeholder="mm-yy" id="expire" name="expire">
-            </div>
+              <div class="unit xs-1 m-1-2 push gutter-1-2">
+                <label for="expire">Expiry Date</label>
+                <input placeholder="mm-yy" id="expire" name="expire">
+              </div>
 
-            <div class="unit xs-1 m-1 push gutter-1-2">
-              <label class="push-1-2 giga pad-t-1-2 milli" for="comments">Please let us know any comments or questions you may have.</label>
-              <textarea class="pad-b-2 push" id="comments" name="comments" required></textarea>
-            </div>
+              <div class="unit xs-1 m-1 push gutter-1-2">
+                <label class="push-1-2 giga pad-t-1-2 milli" for="comments">Please let us know any comments or questions you may have.</label>
+                <textarea class="pad-b-2 push" id="comments" name="comments" required></textarea>
+              </div>
 
-            <div class="unit push xs-1 m-1 push gutter-1-2 text-center">
-              <input type="checkbox" id="verification" name="verification">
-              <label for="verification">I agree to terms and conditions</label>
-            </div>
+              <div class="unit push xs-1 m-1 push gutter-1-2 text-center">
+                <input type="checkbox" id="verification" name="verification">
+                <label for="verification">I agree to terms and conditions</label>
+              </div>
 
-            <div class="unit xs-1 m-1 pad-t text-center">
-              <button class="btn text-center push-2" type="submit">Sign-up!</button>
+              <div class="unit xs-1 m-1 pad-t text-center">
+                <button class="btn text-center push-2" type="submit">Sign-up!</button>
+              </div>
             </div>
-
           </fieldset>
-          </form>
+        </form>
+      </section>
+    </div>
+  </main>
 
           <div class="grid">
             <footer class="unit xs-1 s-1 m-1 l-1" role="contentinfo" tabindex="0">

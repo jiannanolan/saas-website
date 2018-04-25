@@ -6,7 +6,6 @@ header {
   background-color: #1f8089;
 }
 
-
 .sign-up {
   background-color: #cc4e00;
 }
@@ -75,7 +74,7 @@ h2 {
 }
 
 .banner-home {
-  background-image: url(../images/banner-homepage.jpg);
+  background-image: url("../images/banner-homepage.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-position: center center;
@@ -83,7 +82,7 @@ h2 {
 }
 
 .banner-tour {
-  background-image: url(../images/banner-learn-more.jpg);
+  background-image: url("../images/banner-learn-more.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-position: center center;
@@ -91,7 +90,7 @@ h2 {
 }
 
 .banner-pricing {
-  background-image: url(../images/banner-pricing.jpg);
+  background-image: url("../images/banner-pricing.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-position: center center;
@@ -196,5 +195,13 @@ fieldset {
 }
 
 .login-white {
-    background-color: #fff;
+  background-color: #fff;
+}
+
+.key-features {
+  background-color: #bfbec0;
+}
+
+.key-section {
+  background-color: #fff;
 }
