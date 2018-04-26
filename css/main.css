@@ -232,12 +232,13 @@ fieldset {
   color: white;
 }
 
-.quote-background {
-  background-color: #e8e8e8;
+table {
+  min-width: 25em;
 }
 
-.profile {
-  border-radius: 50%;
+.img-width {
+  width: 200px;
+  height: 200px;
 }
 
 .btn-tour:hover {
