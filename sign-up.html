@@ -40,141 +40,142 @@
 
   <main role="main" id="main" tabindex="0">
 
-      <section>
-        <article>
-          <header class="gutter pad-t pad-b-1-2 sign-up grid">
-            <div class="unit xs-1 m-1-2 l-1-2 push">
-              <div class="embed embed-1by1">
-                <img class="img-flex embed-item sign-in" src="images/sign-in.png" alt="" aria-details="quote-1">
-              </div>
+    <section>
+      <article>
+        <header class="gutter pad-t pad-b-1-2 sign-up grid">
+          <div class="unit xs-1 m-1-2 l-1-2 push">
+            <div class="embed embed-1by1">
+              <img class="img-flex embed-item sign-in" src="images/sign-in.png" alt="" aria-details="quote-1">
             </div>
-            <div class="unit xs-1 m-1-2 l-1-2 island">
-              <h2 class="push-1-2 text-center">Sign-up Today</h2>
-              <p class="milli sign-up-p text-center">The world's fastest and most reliable file sharing service at your fingertips.</p>
-              <p class="milli sign-up-p push-1-2 text-center">Already have an account? Click here to login.</p>
-              <div class="text-center pad-b">
-                <a class="btn btn-login push-r-1-2" href="sign-up.html">Login</a>
+          </div>
+          <div class="unit xs-1 m-1-2 l-1-2 island">
+            <h2 class="push-1-2 text-center">Sign-up Today</h2>
+            <p class="milli sign-up-p text-center">The world's fastest and most reliable file sharing service at your fingertips.</p>
+            <p class="milli sign-up-p push-1-2 text-center">Already have an account? Click here to login.</p>
+            <div class="text-center pad-b">
+              <a class="btn btn-login push-r-1-2" href="sign-up.html">Login</a>
             </div>
-          </header>
-        </article>
-      </section>
+          </div>
+        </header>
+      </article>
+    </section>
 
-      <section>
-        <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
+    <section>
+      <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
 
-          <fieldset class="gutter">
-            <legend class="giga pad-t-2 push text-upper">Personal details</legend>
+        <fieldset class="gutter">
+          <legend class="giga pad-t-2 push text-upper">Personal details</legend>
 
-            <div class="grid">
+          <div class="grid">
 
-              <div class="unit xs-1 m-1-2 gutter-1-2">
-                <label for="name">Name</label>
-                <input id="name" name="name" required>
-                <p class="micro italic">Enter your full name.</p>
-              </div>
-
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <label for="date">Date of birth</label>
-                <input type="date" id="date" name="date" required>
-              </div>
-
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <label for="email">Email</label>
-                <input placeholder="abc123@gmail.com" type="email" id="email" name="email" aria-label="insert-email-here" required>
-              </div>
-
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <label for="phone">Phone Number</label>
-                <input placeholder="xxx-xxx-xxx" type="tel" id="phone" name="phone" aria-label="insert-phone-number-here" required>
-              </div>
+            <div class="unit xs-1 m-1-2 gutter-1-2">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+              <p class="micro italic">Enter your full name.</p>
             </div>
-          </fieldset>
 
-          <fieldset class="gutter">
-            <legend class="giga pad-t push text-upper">Company Details</legend>
-
-            <div class="grid">
-
-              <div class="unit xs-1 m-1-2 gutter-1-2 push">
-                <label for="comp-name">Company Name</label>
-                <input id="comp-name" name="comp-name">
-              </div>
-
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <label for="comp-email">Company Email</label>
-                <input placeholder="abc123@gmail.com" type="email" id="comp-email" name="comp-email" aria-label="Insert your company email">
-              </div>
-
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <label for="comp-phone">Company Phone Number</label>
-                <input placeholder="xxx-xxx-xxx" type="tel" id="comp-phone" name="comp-phone" aria-label="Insert your company phone number">
-              </div>
-
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <label for="size">Company size</label>
-                <input type="range" id="size" name="size">
-              </div>
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <label for="date">Date of birth</label>
+              <input type="date" id="date" name="date" required>
             </div>
-          </fieldset>
 
-          <fieldset class="push-0 gutter">
-            <legend class="giga push text-upper">Account verification ***Do Not enter/Not a Real website</legend>
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <label for="email">Email</label>
+              <input placeholder="abc123@gmail.com" type="email" id="email" name="email" aria-label="insert-email-here" required>
+            </div>
 
-            <section class="grid">
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <label for="phone">Phone Number</label>
+              <input placeholder="xxx-xxx-xxx" type="tel" id="phone" name="phone" aria-label="insert-phone-number-here" required>
+            </div>
+          </div>
+        </fieldset>
 
-              <div class="unit push xs-1 m-1-2 gutter-1-2">
-                <fieldset class="push-0">
-                  <legend class="not-bold">Billing Details</legend>
-                  <input type="radio" id="pickyr" name="pickyr">
-                  <label for="pickyr">Yearly</label>
-                  <input type="radio" id="pickmonth" name="pickmonth">
-                  <label for="pickmonth">Monthly</label>
-                </fieldset>
-                <p class="micro italic push-0">*** Not a Real Website.</p>
-              </div>
+        <fieldset class="gutter">
+          <legend class="giga pad-t push text-upper">Company Details</legend>
 
-              <div class="unit push-0 xs-1 m-1-2 gutter-1-2">
-                <label for="payment-method">Payment Method</label>
-                <select id="payment-method" required>
-                  <option class="text-upper" value="">Method of Payment</option>
-                  <option>Visa</option>
-                  <option>Mastercard</option>
-                  <option>American Express</option>
-                  <option>Paypal</option>
-                </select>
-                <p class="micro italic">*** Not a Real Website.</p>
-              </div>
+          <div class="grid">
 
-              <div class="unit xs-1 m-1-2 gutter-1-2">
-                <label for="security">Security code</label>
-                <input type="password" id="security" name="security">
-                <p class="micro italic">*** Not a Real Website.</p>
-              </div>
+            <div class="unit xs-1 m-1-2 gutter-1-2 push">
+              <label for="comp-name">Company Name</label>
+              <input id="comp-name" name="comp-name">
+            </div>
 
-              <div class="unit xs-1 m-1-2 push gutter-1-2">
-                <label for="expire">Expiry Date</label>
-                <input placeholder="mm-yy" id="expire" name="expire" aria-label="insert-expiry-date-here">
-              </div>
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <label for="comp-email">Company Email</label>
+              <input placeholder="abc123@gmail.com" type="email" id="comp-email" name="comp-email" aria-label="Insert your company email">
+            </div>
 
-              <div class="unit xs-1 m-1 push gutter-1-2">
-                <label class="push-1-2 giga pad-t-1-2 milli" for="comments">Please let us know any comments or questions you may have.</label>
-                <textarea class="pad-b-2 push" id="comments" name="comments" required></textarea>
-              </div>
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <label for="comp-phone">Company Phone Number</label>
+              <input placeholder="xxx-xxx-xxx" type="tel" id="comp-phone" name="comp-phone" aria-label="Insert your company phone number">
+            </div>
 
-              <div class="unit push xs-1 m-1 push gutter-1-2 text-center">
-                <input type="checkbox" id="verification" name="verification">
-                <label for="verification">I agree to terms and conditions</label>
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <label for="size">Company size</label>
+              <input type="range" id="size" name="size">
+            </div>
+          </div>
+        </fieldset>
 
-              </div>
+        <fieldset class="push-0 gutter">
+          <legend class="giga push text-upper">Account verification ***Do Not enter/Not a Real website</legend>
 
-              <article class="unit xs-1 m-1 pad-t text-center">
-                <button class="btn text-center push-2" type="submit">Sign-up!</button>
-              </article>
-            </section>
-          </fieldset>
-        </form>
-      </section>
-    </div>
+          <section class="grid">
+
+            <div class="unit push xs-1 m-1-2 gutter-1-2">
+              <fieldset class="push-0">
+                <legend class="not-bold">Billing Details</legend>
+                <input type="radio" id="pickyr" name="pickyr">
+                <label for="pickyr">Yearly</label>
+                <input type="radio" id="pickmonth" name="pickmonth">
+                <label for="pickmonth">Monthly</label>
+              </fieldset>
+              <p class="micro italic push-0">*** Not a Real Website.</p>
+            </div>
+
+            <div class="unit push-0 xs-1 m-1-2 gutter-1-2">
+              <label for="payment-method">Payment Method</label>
+              <select id="payment-method" required>
+                <option class="text-upper" value="">Method of Payment</option>
+                <option>Visa</option>
+                <option>Mastercard</option>
+                <option>American Express</option>
+                <option>Paypal</option>
+              </select>
+              <p class="micro italic">*** Not a Real Website.</p>
+            </div>
+
+            <div class="unit xs-1 m-1-2 gutter-1-2">
+              <label for="security">Security code</label>
+              <input type="password" id="security" name="security">
+              <p class="micro italic">*** Not a Real Website.</p>
+            </div>
+
+            <div class="unit xs-1 m-1-2 push gutter-1-2">
+              <label for="expire">Expiry Date</label>
+              <input placeholder="mm-yy" id="expire" name="expire" aria-label="insert-expiry-date-here">
+            </div>
+
+            <div class="unit xs-1 m-1 push gutter-1-2">
+              <label class="push-1-2 giga pad-t-1-2 milli" for="comments">Please let us know any comments or questions you may have.</label>
+              <textarea class="pad-b-2 push" id="comments" name="comments" required></textarea>
+            </div>
+
+            <div class="unit push xs-1 m-1 push gutter-1-2 text-center">
+              <input type="checkbox" id="verification" name="verification">
+              <label for="verification">I agree to terms and conditions</label>
+
+            </div>
+
+            <article class="unit xs-1 m-1 pad-t text-center">
+              <button class="btn text-center push-2" type="submit">Sign-up!</button>
+            </article>
+          </section>
+        </fieldset>
+
+      </form>
+    </section>
   </main>
 
   <div class="grid">
