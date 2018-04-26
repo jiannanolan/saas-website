@@ -258,3 +258,11 @@ fieldset {
 .teal-text {
   color: #1f8089;
 }
+
+.question {
+  background-color: #58595b;
+}
+
+.ask {
+  color: #fff;
+}
