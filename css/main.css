@@ -250,3 +250,11 @@ fieldset {
   border-radius: 50%;
   max-height: 100%;
 }
+
+.orange-text {
+  color: #cc4e00;
+}
+
+.teal-text {
+  color: #1f8089;
+}
