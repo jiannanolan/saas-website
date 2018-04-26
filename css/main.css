@@ -231,3 +231,22 @@ fieldset {
   border: 3px solid #cc4e00;
   color: white;
 }
+
+.quote-background {
+  background-color: #e8e8e8;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.btn-tour:hover {
+  background-color: #fff;
+  border: 3px solid #fff;
+  color: #58595b;
+}
+
+.sign-in {
+  border-radius: 50%;
+  max-height: 100%;
+}
